@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accuweather web App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+            <!-- Header Section -->
+        
+                <p>Coded By <a href="https://github.com/Danishsayyad" target="_blank">Danish Sayyad</a></p>
+            </section>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="row justify-content-center">
+            <section class="main col-md-6 col-sm-12 p-4 shadow rounded bg-light">
+                <!-- Input Section -->
+                <section class="inputs mb-3">
+                    <input type="text" class="form-control mb-2" placeholder="Enter city name..." id="cityinput">
+                    <button class="btn btn-primary w-100" id="add">Get Weather</button>
+                </section>
+
+                <!-- Display Section -->
+                <section class="display text-center mt-3">
+                    <div class="wrapper">
+                        <h2 id="cityoutput" class="font-weight-bold"></h2>
+                        <p id="description" class="text-muted"></p>
+                        <p id="temp" class="h3"></p>
+                        <p id="wind" class="text-info"></p>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
