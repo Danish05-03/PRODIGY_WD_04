@@ -1,5 +1,5 @@
 # PRODIGY_WD_05
-# Prodigy Internship Task 4 - Weather App
+# Prodigy Internship Task 5 - Weather App
 
 ## 📌 Overview
 This is a **Weather App** built using HTML, CSS, and JavaScript with API integration to fetch real-time weather data. Users can check the weather for any city worldwide.
